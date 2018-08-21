@@ -4,7 +4,8 @@ Connect Minecraft to Telegram in a simple, easy way! 🔝
 
 ## Installation
 
-Simple. Download the .JAR file on the "Releases" section. 😎
+Simple. Download the .JAR file on the "Releases" section, and place it into the `plugin` directory on your Spigot server. 😎
+Or you can compile it yourself. 😱
 
 ## Configuration
 
