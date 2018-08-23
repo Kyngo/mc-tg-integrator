@@ -65,10 +65,6 @@ public class TelegramWrapper {
             URL url = new URL(String.format("https://api.telegram.org/bot%s/%s", tgToken, payload));
             BufferedReader in = new BufferedReader(new InputStreamReader(url.openStream()));
             in.close();
-        } catch (FileNotFoundException fnfe) {
-            System.out.println("Configuration file was not found!"
-                    + "It must be named \"mc-tg-integrator.yml\" and has to be placed inside the \"plugins\" directory.\nThis file must contain two lines, e.g.:\n\n"
-                    + "token: \"abcdef123456:tokentokentoken789\"\ngroup: -1234567890\n\n");
         } catch (Exception e) {
             System.out.println("An error occured when trying to process this message! More details are shown below.");
             System.out.println(e.getMessage());
